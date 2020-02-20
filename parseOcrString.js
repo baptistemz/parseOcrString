@@ -16,15 +16,5 @@ const parseOcrString = (string) => {
   //     ]
   //  }
 
-  return {
-      string,
-      store: "",
-      products : [
-        {
-          label: "",
-          quantity: "",
-          price: ""
-        }
-      ]
-  }
+  return parseIntermarcheTickets(string);
 }
